@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container" id="taskContainer">
+        <h1>To-Do List📝</h1>
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Add a new task" onkeypress="handleKeyPress(event)">
+            <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList"></ul>
+    </div>
+   
+        <footer>
+            Made with Love❤️.Copyright &copy; 2023
+        </footer>
+    
+
+    <script src="script.js"> </script>
+</body>
+</html>
